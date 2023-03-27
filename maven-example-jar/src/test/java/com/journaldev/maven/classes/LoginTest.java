@@ -1,22 +1,20 @@
 package com.journaldev.maven.classes;
 
-	import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 	import java.io.IOException;
-	import java.util.HashMap;
+import java.util.HashMap;
 
 import javax.security.auth.spi.LoginModule;
 
-import org.iitwforce.selenium.mmppluto.lib.AppLibrary;
-	import org.iitwforce.selenium.mmppluto.lib.BaseClass;
-	import org.iitwforce.selenium.mmppluto.pages.HomePage;
-	import org.iitwforce.selenium.mmppluto.pages.LoginPage;
-	import org.testng.Assert;
-	import org.testng.annotations.DataProvider;
-	import org.testng.annotations.Parameters;
-	import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
-	public class LoginTests extends BaseClass {
+import com.journaldev.maven.classes.pages.AppLibrary;
+import com.journaldev.maven.classes.pages.LoginPage;
+import com.journaldev.maven.lib.BaseClass;
+
+	public class LoginTest<HomePage> extends BaseClass {
 		
 		
 		HashMap<String,String> expectedHMap= new HashMap<String,String>();

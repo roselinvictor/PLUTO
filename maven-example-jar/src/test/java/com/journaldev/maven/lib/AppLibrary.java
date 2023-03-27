@@ -47,6 +47,6 @@ package com.journaldev.maven.lib;
 			}
 			wb.close();
 			return str;	
-}	
+
 
 
